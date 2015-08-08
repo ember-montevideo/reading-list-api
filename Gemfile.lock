@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (5.0.0)
+      columnize (= 0.9.0)
+    columnize (0.9.0)
+    daemons (1.2.3)
+    eventmachine (1.0.8)
+    minitest (5.7.0)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.4.2)
+    roda (2.5.0)
+      rack
+    sequel (4.25.0)
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  minitest
+  rack
+  rack-test
+  rake
+  roda
+  sequel
+  thin
+
+BUNDLED WITH
+   1.10.3
