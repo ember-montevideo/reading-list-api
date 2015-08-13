@@ -6,10 +6,10 @@ group :default do
   gem "rack"
   gem "rake"
   gem "sequel"
+  gem "thin"
 end
 
 group :development do
-  gem "thin"
   gem "byebug"
 end
 
